@@ -8,7 +8,7 @@
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
-            <version>1.18.26</version>
+            <version>1.18.28</version>
             <scope>provided</scope>
         </dependency>
 
@@ -16,14 +16,14 @@
         <dependency>
             <groupId>io.netty.incubator</groupId>
             <artifactId>netty-incubator-transport-native-io_uring</artifactId>
-            <version>0.0.17.Final</version>
+            <version>0.0.21.Final</version>
             <classifier>linux-x86_64</classifier>
         </dependency>
 
         <dependency>
             <groupId>io.netty</groupId>
             <artifactId>netty-transport-native-epoll</artifactId>
-            <version>4.1.89.Final</version>
+            <version>4.1.94.Final</version>
             <classifier>linux-x86_64</classifier>
         </dependency>
     </dependencies>
